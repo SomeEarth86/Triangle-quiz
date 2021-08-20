@@ -1,8 +1,58 @@
 
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 1.5rem;
+}
 
+body{
+    margin: 0;
+}
 
+header , footer{
+    /* margin: 0; */
+    background-color: #52B788;
+}
 
+nav , a{
+    margin-right: 2rem;
+    text-align: right;
+}
+
+/* index.html and istriangle.js first page */
+.container-div-istriangle{
+    max-width: 500px;
+    margin: auto;
+    display: block;
+}
+
+.angleinput{
+    padding: 0.8rem;
+    border-radius: 0.6rem;
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+#istriangle-btn{
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding: 0.8rem;
+    border-radius: 0.6rem;
+    font-size: 1.1rem;
+}
+
+#output-msg{
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 1.2rem;
+    margin-top: 1.4rem;
+}
+
+/* Footer in general */
 .footer{
+    padding: 1.5rem;
     bottom: 0;
     left: 0;
     right: 0;
