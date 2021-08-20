@@ -18,9 +18,11 @@ nav , a{
     margin-right: 2rem;
     text-align: right;
 }
-
+/* ----------------------*********************--------------- */
+/* ----------------------*********************--------------- */
+/* ----------------------*********************--------------- */
 /* index.html and istriangle.js first page */
-.container-div-istriangle{
+.container{
     max-width: 500px;
     margin: auto;
     display: block;
@@ -49,6 +51,36 @@ nav , a{
     font-size: 1.2rem;
     margin-top: 1.4rem;
 }
+
+/* ----------------------*********************--------------- */
+/* ----------------------*********************--------------- */
+/* ----------------------*********************--------------- */
+
+/* Hypotenuse  html and hypotenuse.js*/
+
+.side1 , .side2{
+    padding: 0.8rem;
+    border-radius: 0.6rem;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+#hypotenuse-btn{
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding: 0.8rem;
+    border-radius: 0.6rem;
+    font-size: 1.1rem;
+}
+
+
+
+
+/* ----------------------*********************--------------- */
+/* ----------------------*********************--------------- */
+/* ----------------------*********************--------------- */
+
 
 /* Footer in general */
 .footer{
