@@ -3,7 +3,7 @@ const istrianglebtn = document.querySelector("#istriangle-btn");
 const outputMsg = document.querySelector("#output-msg");
 
 
-istrianglebtn.addEventListener("click", isTriangleorNot)
+istrianglebtn.addEventListener("click", isTriangleorNot);
 
 function isTriangleorNot() {
 
