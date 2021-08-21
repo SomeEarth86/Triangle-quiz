@@ -5,6 +5,12 @@ h1{
     padding: 1.5rem;
 }
 
+h2,h3{
+    text-align: center;
+    margin: 0;
+    margin-top: 1rem;
+}
+
 body{
     margin: 0;
 }
@@ -17,7 +23,10 @@ header , footer{
 nav , a{
     margin-right: 2rem;
     text-align: right;
+    color: black;
 }
+
+
 /* ----------------------*********************--------------- */
 /* ----------------------*********************--------------- */
 /* ----------------------*********************--------------- */
@@ -48,7 +57,7 @@ nav , a{
     display: block;
     text-align: center;
     margin: auto;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-top: 1.4rem;
 }
 
@@ -81,6 +90,34 @@ nav , a{
 /* ----------------------*********************--------------- */
 /* ----------------------*********************--------------- */
 
+/* area triangle.html and area triangle JS */
+
+.base,.height{
+    padding: 0.8rem;
+    border-radius: 0.6rem;
+    width: 90%;
+    margin-bottom: 1rem;
+
+}
+
+#area-btn{
+    display: block;
+    padding: 0.8rem;
+    text-align: center;
+    margin: auto;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+/* ----------------------*********************--------------- */
+/* ----------------------*********************--------------- */
+/* ----------------------*********************--------------- */
 
 /* Footer in general */
 .footer{

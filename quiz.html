@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fun With Triangles</title>
+    <title>Triangle Quiz</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <h1>Fun with Triangles</h1>
-       <nav class="nav-container">
+        <nav class="nav-container">
             <a href="index.html">is Triangle</a>
             <a href="quiz.html">Quiz</a>
             <a href="hypotenuse.html">Hypotenuse</a>
@@ -20,21 +20,52 @@
         </nav>
     </header>
 
-    <div class="container">
-       
-    </div>
+        <div class="container">
+            <h2>Quiz on triangles</h2>
+            <h3>For each correct answer you will get point</h3>
 
-    <footer class="footer">
+            <form class="quiz-form">
+                <div class="container-question">
+                    <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+                    <label><input type="radio" value="45°" name="question-1">45°</label>
+                    <label><input type="radio" value="90°" name="question-1">90°</label>
+                    <label><input type="radio" value="60°" name="question-1">60°</label>
+                </div>
+                <div class="container-question">
+                    <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?
+                    </p>
+                    <label><input type="radio" value="obtuse" name="question-2">obtuse</label>
+                    <label><input type="radio" value="acute" name="question-2">acute</label>
+                    <label><input type="radio" value="right angled" name="question-2">right angled</label>
+                </div>
 
-        <div class="footerText"> © | 2021 | Samarth Joshi </div>
+                <div class="container-question">
+                    <p>A triangle can have</p>
+                    <label><input type="radio" value="one right angle" name="question-3">one right angle</label>
+                    <label><input type="radio" value="two right angle" name="question-3">two right angle</label>
+                </div>
+              
+            </form>
+        
+        <button id="submit-answers">Submit</button>
+        <div class="msgdisplay"></div>
+        </div>
 
-        <a href="https://github.com/SomeEarth86"> <img src="images/github.svg" alt="Github" id="github"></a>
-        <a href="https://twitter.com/Samarth019"> <img src="images/twitter.svg" alt="Twitter" id="twitter"></a>
-        <a href="https://someearth.netlify.app/"> <img src="images/portfolio.svg" alt="Portfolio" id="portfolio"></a>
 
-    </footer>
+    <footer class=" footer">
+                        <div class="footerText"> © | 2021 | Samarth Joshi </div>
 
-    <script src="istriangle.js"></script>
+                        <a href="https://github.com/SomeEarth86"> <img src="images/github.svg" alt="Github"
+                                id="github"></a>
+                        <a href="https://twitter.com/Samarth019"> <img src="images/twitter.svg" alt="Twitter"
+                                id="twitter"></a>
+                        <a href="https://someearth.netlify.app/"> <img src="images/portfolio.svg" alt="Portfolio"
+                                id="portfolio"></a>
+
+                        </footer>
+
+
+                        <script src="quiz.js"></script>
 </body>
 
 </html>
