@@ -7,7 +7,7 @@ const msgDisplay = document.querySelector("#output-msg");
 calculateAreaBtn.addEventListener("click", calculateArea);
 
 function calculateArea() {
-    if (baseOfTriangle.value && heightOfTriangle.value) {
+    if (baseOfTriangle.value>0  && heightOfTriangle.value>0) {
         const area = 0.5 * Number(baseOfTriangle.value) * Number(heightOfTriangle.value);
         msgDisplay.innerText = " The area of triangle is " + area;
     } else {
