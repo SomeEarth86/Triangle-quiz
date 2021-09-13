@@ -12,7 +12,7 @@ function isTriangleorNot() {
     let c = angleInp[2].value;
 
     if (  (a > 0)  && (b > 0) && (c > 0)) {
-        const sum = Number(angleInp[0].value) + Number(angleInp[1].value) + Number(angleInp[2].value);
+        const sum = a+ b+ c;
 
         if (sum === 180) {
             showMessage("Yay, it forms a triangle");
