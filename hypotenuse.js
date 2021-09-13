@@ -7,7 +7,7 @@ calcHypoBtn.addEventListener("click", calcHypotenuse);
 
 function calcHypotenuse() {
 
-    if (side1.value && side2.value) {
+    if (side1.value>0 && side2.value > 0) {
         const sum = side1.value ** 2 + side2.value ** 2;
         // console.log(sum);
         const hypo = Math.sqrt(sum);
