@@ -7,7 +7,11 @@ istrianglebtn.addEventListener("click", isTriangleorNot);
 
 function isTriangleorNot() {
 
-    if (  (angleInp[0].value > 0)  && (angleInp[1].value > 0) && (angleInp[2].value > 0)) {
+    let a = angleInp[0].value;
+    let b = angleInp[1].value;
+    let c = angleInp[2].value;
+
+    if (  (a > 0)  && (b > 0) && (c > 0)) {
         const sum = Number(angleInp[0].value) + Number(angleInp[1].value) + Number(angleInp[2].value);
 
         if (sum === 180) {
