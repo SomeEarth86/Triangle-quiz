@@ -7,7 +7,7 @@ istrianglebtn.addEventListener("click", isTriangleorNot);
 
 function isTriangleorNot() {
 
-    if (angleInp[0].value && angleInp[1].value && angleInp[2].value) {
+    if (  (angleInp[0].value > 0)  && (angleInp[1].value > 0) && (angleInp[2].value > 0)) {
         const sum = Number(angleInp[0].value) + Number(angleInp[1].value) + Number(angleInp[2].value);
 
         if (sum === 180) {
@@ -17,7 +17,7 @@ function isTriangleorNot() {
         }
 
     } else {
-        showMessage(" Enter all 3 angles to check.");
+        showMessage(" Plz enter valid i/p ");
     }
 }
 
